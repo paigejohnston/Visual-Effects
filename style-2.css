@@ -31,7 +31,7 @@ body {
 
 /*CREDIT STYLE*/
 
-.ve-research-container {
+.ve-home-button-container {
   position: absolute;
   margin: 0;
   padding: 0;
@@ -42,7 +42,7 @@ body {
   transform: rotate(90deg);
 }
 
-.ve-research {
+.ve-home-button {
   color: #0000FF;
   font-size: 50px;
   letter-spacing: 0.1em;
@@ -50,57 +50,25 @@ body {
   font-weight: bold;
 }
 
-.ve-research:hover {
+.ve-home-button:hover {
   color: #DC143C;
 }
 
-.ve-content-container {
+
+.ve-text-container {
   position: absolute;
   margin: 0;
   padding: 0;
-  height: 7%;
+  height: 8%;
   width: 24.5%;
   right: 82%;
-  bottom: 20%;
+  top:20%;
   transform: rotate(90deg);
 }
 
-.ve-content {
+.ve-text {
   color: #0000FF;
   font-size: 50px;
-  letter-spacing: 0.1em;
-  text-align: left;
-  font-weight: bold;
-}
-
-  .ve-content:hover {
-    color: #DC143C;
-}
-
-/* TITLE and name */
-.ve-title-container {
-  position: absolute;
-  left:40%;
-  top: 71.5%;
-  height:20%;
-	width: 58.5%;
-	position: absolute;
-	overflow: hidden;
-}
-
-.ve-title {
-  color: #0000FF;
-  font-size: 85px;
-  line-height: 1.5;
-  letter-spacing: 0.1em;
-  text-align: left;
-  font-weight: bold;
-}
-
-.ve-name {
-  color: #0000FF;
-  font-size: 10px;
-  line-height: 1.5;
   letter-spacing: 0.1em;
   text-align: left;
   font-weight: bold;
