@@ -31,7 +31,7 @@ body {
 
 /*CREDIT STYLE*/
 
-.ve-research-container {
+.ve-home-button-container {
   position: absolute;
   margin: 0;
   padding: 0;
@@ -42,7 +42,7 @@ body {
   transform: rotate(90deg);
 }
 
-.ve-research {
+.ve-home-button {
   text-decoration: none;
   color: #0000FF;
   font-size: 50px;
@@ -51,10 +51,11 @@ body {
   font-weight: bold;
 }
 
-.ve-research:hover {
-  color: #DC143C;
+  .ve-home-button:hover {
+    color: #DC143C;
 }
 
+/*CONTENT BAR*/
 .ve-content-container {
   position: absolute;
   margin: 0;
@@ -79,31 +80,50 @@ body {
     color: #DC143C;
 }
 
-/* TITLE and name */
-.ve-title-container {
+/*TEXT STARTS*/
+.ve-exploration-container {
   position: absolute;
-  left:40%;
-  top: 71.5%;
-  height:20%;
-	width: 58.5%;
-	position: absolute;
-	overflow: hidden;
+  margin: 0;
+  padding: 0;
+  height: 15%;
+  width: 30%;
+  right: 62.5%;
+  top:1.5%;
+}
+/*ABOVE ONLY NEEDS CONTAINER - BC DROP BOX*/
+
+/* Marquee */
+.marquee-container {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  /* // Defines the width of the marquee */
+  width: 70px;
+  font-size: 50pt;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  text-decoration-color: #663190;
+  text-align: center;
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  right: 0;
+  cursor: url("../assets/lmn-cursor.png") -20 0, pointer;
 }
 
-.ve-title {
+marquee {
+  padding:2px;
+  margin: 5px;
+  overflow: visable;
+  height:100vh;
+  text-align: center;
+  position:relative;
+}
+
+.ve-text-marquee {
+  text-align: right;
+}
+
+.ve-text-marquee--blue {
   color: #0000FF;
-  font-size: 85px;
-  line-height: 1.5;
-  letter-spacing: 0.1em;
-  text-align: left;
-  font-weight: bold;
-}
-
-.ve-name {
-  color: #DC143C;
-  font-size: 10px;
-  line-height: 1.5;
-  letter-spacing: 0.1em;
-  text-align: left;
-  font-weight: bold;
 }

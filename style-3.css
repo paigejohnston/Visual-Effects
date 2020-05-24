@@ -42,6 +42,7 @@ body {
 }
 
 .ve-home-button {
+  text-decoration: none;
   color: #0000FF;
   font-size: 50px;
   letter-spacing: 0.1em;
@@ -66,6 +67,7 @@ body {
 }
 
 .ve-research {
+  text-decoration: none;
   color: #0000FF;
   font-size: 50px;
   letter-spacing: 0.1em;
@@ -98,4 +100,40 @@ body {
   letter-spacing: 0.1em;
   text-align: left;
   font-weight: bold;
+}
+
+/* Marquee */
+.marquee-container {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  /* // Defines the width of the marquee */
+  width: 70px;
+  font-size: 50pt;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  text-decoration-color: #663190;
+  text-align: center;
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  right: 0;
+  cursor: url("../assets/lmn-cursor.png") -20 0, pointer;
+}
+
+marquee {
+  padding:2px;
+  margin: 5px;
+  overflow: visable;
+  height:100vh;
+  text-align: center;
+  position:relative;
+}
+
+.ve-text-marquee {
+  text-align: right;
+}
+
+.ve-text-marquee--blue {
+  color: #0000FF;
 }

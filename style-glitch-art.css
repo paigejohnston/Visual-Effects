@@ -42,6 +42,7 @@ body {
 }
 
 .ve-back {
+  text-decoration: none;
   color: #0000FF;
   font-size: 50px;
   letter-spacing: 0.1em;
@@ -66,6 +67,7 @@ body {
 }
 
 .ve-home-button {
+  text-decoration: none;
   color: #0000FF;
   font-size: 50px;
   letter-spacing: 0.1em;
