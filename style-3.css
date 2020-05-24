@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+	overflow-y: hidden;
+}
+
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  overflow: hidden;
+}
+
+.ve-page {
+  position: absolute;
+  height:100vh;
+  width: 100vw;
+  top:0;
+  margin:0;
+  padding:0;
+  float:centre;
+}
+
+/*CREDIT STYLE*/
+.ve-home-button-container {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  height: 8%;
+  width: 24.5%;
+  right: 82%;
+  top:20%;
+  transform: rotate(90deg);
+}
+
+.ve-home-button {
+  color: #0000FF;
+  font-size: 50px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  font-weight: bold;
+}
+
+.ve-home-button:hover {
+  color: #DC143C;
+}
+
+/*CONTENT BAR*/
+.ve-research-container {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  height: 7%;
+  width: 24.5%;
+  right: 82%;
+  bottom: 20%;
+  transform: rotate(90deg);
+}
+
+.ve-research {
+  color: #0000FF;
+  font-size: 50px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  font-weight: bold;
+}
+
+  .ve-research:hover {
+    color: #DC143C;
+}
+
+/*TEXT STARTS*/
+
+.ve-experience-container {
+  background-color: #7FFFD4;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  height: 18%;
+  width: 12%;
+  right: 79.5%;
+  top:18%;
+}
+
+.ve-experience {
+  top:10vh;
+  color: #00BFFF;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 28px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  font-weight: bold;
+}

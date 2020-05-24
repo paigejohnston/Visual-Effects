@@ -50,26 +50,184 @@ body {
   font-weight: bold;
 }
 
-.ve-home-button:hover {
-  color: #DC143C;
+  .ve-home-button:hover {
+    color: #DC143C;
 }
 
-
-.ve-text-container {
+/*CONTENT BAR*/
+.ve-content-container {
   position: absolute;
   margin: 0;
   padding: 0;
-  height: 8%;
+  height: 7%;
   width: 24.5%;
   right: 82%;
-  top:20%;
+  bottom: 20%;
   transform: rotate(90deg);
 }
 
-.ve-text {
+.ve-content {
   color: #0000FF;
   font-size: 50px;
   letter-spacing: 0.1em;
   text-align: left;
   font-weight: bold;
 }
+
+  .ve-content:hover {
+    color: #DC143C;
+}
+
+/*TEXT STARTS*/
+.ve-exploration-container {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  height: 15%;
+  width: 30%;
+  right: 62.5%;
+  top:1.5%;
+}
+/*ABOVE ONLY NEEDS CONTAINER - BC DROP BOX*/
+
+.ve-experience-container {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  height: 18%;
+  width: 12%;
+  right: 79.5%;
+  top:18%;
+}
+
+.ve-experience {
+  top:10vh;
+  color: #00BFFF;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  font-weight: bold;
+}
+
+.ve-experience:hover {
+  color: #0000FF;
+}
+
+.ve-audio-container {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  height: 18%;
+  width: 12%;
+  right: 79.5%;
+  top:37%;
+}
+
+.ve-audio {
+  top:40%;
+  color: #FF4500;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  font-weight: bold;
+}
+
+.ve-audio:hover {
+  color: #0000FF;
+}
+
+.ve-main-focus-container {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  height: 15%;
+  width: 12%;
+  right: 79.5%;
+  top:56%;
+}
+
+.ve-main-focus {
+  top:40%;
+  color: #00FF00;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  font-weight: bold;
+}
+
+.ve-main-focus:hover {
+  color: #0000FF;
+}
+
+.ve-genre-variety-container {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  height: 5%;
+  width: 12%;
+  right: 79.5%;
+  top:72%;
+}
+
+.ve-genre-variety {
+  top:40%;
+  color: #FF00FF;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  font-weight: bold;
+}
+
+.ve-genre-variety:hover {
+  color: #0000FF;
+}
+
+/*HOVER DROP MENU STYLING*/
+
+.dropbtn {
+  background-color: #000000;
+  color: #FFD700;
+  padding: 15px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: bold;
+  color: #FFD700;
+  font-size: 11px;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #000000;}
+
+.dropdown-content a:hover {color: #0000FF;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #000000;}
+
+.dropdown:hover .dropbtn {color: #0000FF;}
