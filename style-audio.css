@@ -30,7 +30,7 @@ body {
 }
 
 /*CREDIT STYLE*/
-.ve-home-button-container {
+.ve-back-button-container {
   position: absolute;
   margin: 0;
   padding: 0;
@@ -41,7 +41,7 @@ body {
   transform: rotate(90deg);
 }
 
-.ve-home-button {
+.ve-back-button {
   text-decoration: none;
   color: #0000FF;
   font-size: 50px;
@@ -50,7 +50,7 @@ body {
   font-weight: bold;
 }
 
-  .ve-home-button:hover {
+  .ve-back-button:hover {
     color: #DC143C;
 }
 
